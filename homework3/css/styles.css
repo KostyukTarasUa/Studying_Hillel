@@ -1,0 +1,160 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+     font-weight: 400;
+    src: url('../fonts/Inter_18pt-Regular.ttf') format('ttf');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Inter';
+     font-weight: 600;
+    src: url('../fonts/Inter_18pt-SemiBold.ttf') format('ttf');
+}
+
+/* global */
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+bottom: 0;
+font-weight: 400;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+body {
+    background: #ccc;
+    font-family: Inter, sans-serif;
+}
+
+.table-inner {
+   width: 600px; 
+   height: 772px;
+   padding: 12px 24px 24px;
+   margin: 40px auto 0;
+   background:#FFFFFF;
+   font-size: 15px;
+}
+
+.table-main {
+   width: 100%; 
+}
+
+/* table header */
+.browser-redirect {
+    color: #98A2B3;
+    vertical-align: top;
+    text-align: right;
+    height: 48px;
+    text-decoration: none;
+}
+
+.logo-top {
+    margin-top: 16px;
+}
+
+.h-p1 {
+    height: 36px;
+}
+
+.h-p2 {
+    height: 88px;
+}
+
+.h-p3 {
+margin-top: 24px;    
+font-weight: 600;
+font-size: 28px;
+text-align: left;
+height: 36px;
+color: #101828;
+}
+
+.h-p4{
+margin-top: 8px;
+text-align: left;
+color: #667085;
+height: 48px;
+margin-bottom: 48px;
+}
+
+/* table body */
+.tr-b {
+    height: 56px;
+}
+
+.b-td-1-main {
+    width: 376px;
+    border-bottom: 1px solid #E0E0E0;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.b-td-2-main {
+    width: 50px;
+    border-bottom: 1px solid #E0E0E0;
+    color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.b-td-3-main {
+   width: 126px;
+   border-bottom: 1px solid #E0E0E0; 
+   color: #101828;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: right;
+}
+
+.b-td-1 {
+    width: 376px;
+    border-bottom: 1px solid #E0E0E0;
+    color: #667085;
+}
+
+.b-td-2 {
+    width: 50px;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: right;
+}
+
+.b-td-3 {
+   width: 126px;
+   border-bottom: 1px solid #E0E0E0; 
+   text-align: right;
+}
+
+/* table footer */
+.f-td-1 {
+    vertical-align: bottom;
+}
+
+.f-p1 {
+margin-top: 48px;
+}
+
+.f-p2 {
+margin-top: 12px;
+color:#101828;
+font-weight: 600;
+font-size: 16px;
+height: 24px;
+}
+
+.f-p3 {
+margin-top: 8px;
+color: #667085;
+height: 24px;
+}
+
+.f-p4 {
+    color: #667085;
+    text-align: right;
+    height: 24px;
+}
